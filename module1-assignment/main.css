@@ -1,0 +1,51 @@
+body{
+    background-color: antiquewhite;
+}
+.bd{
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -200px;
+}
+
+.heading{
+font-style: italic;
+justify-self: center;
+padding-left: 70px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+.ip{
+    font-size: larger;
+}
+
+.in{
+border-radius: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-top: 10px;
+font-size: large;
+}
+
+
+.btn{
+ 
+size: 20px;
+border-radius: 20px;
+padding-top: 30px;
+padding-left: 120px;
+padding-bottom: 50px;
+
+}
+
+.msg{
+padding-top: 20px;
+font-size: larger;
+color: red;
+padding-left: 100px;
+
+
+}
