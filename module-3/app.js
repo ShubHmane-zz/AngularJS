@@ -41,14 +41,14 @@
   
     menuSearchService.getMatchedMenuItems = function (searchTerm) {
       return $http({url: 'https://davids-restaurant.herokuapp.com/menu_items.json'}).then(function (result) {
-          // process result and only keep items that match
+          
           var foundItems = result.data.menu_items;
   
           for (var i = 0; i < foundItems.length; i++) {
-            // if this item does not contain search term
+           
             if (foundItems[i].description.toLowerCase().indexOf(searchTerm.toLowerCase()) === -1) {
-              foundItems.splice(i, 1); // remove it from foundItems
-              i--; // go back 1 index
+              foundItems.splice(i, 1); 
+              i--; 
             }
           }
   
